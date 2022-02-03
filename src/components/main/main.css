@@ -1,0 +1,156 @@
+.main {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border-top: 1px solid lightgrey;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  padding: 20px 0;
+}
+
+.text {
+  padding: 20px 0;
+}
+
+.text h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  padding: 10px 0;
+}
+
+.text h5 {
+  font-weight: 500;
+  color: #999;
+  font-size: 0.8rem;
+}
+
+.pic {
+  width: 80%;
+  height: 80%;
+}
+
+.right {
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.logo {
+  padding: 20px 0;
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px 0;
+}
+
+.form label {
+  font-weight: 400;
+  color: #222;
+  font-size: 0.9rem;
+}
+
+.form input {
+  margin-top: 15px;
+  padding: 15px 30px;
+  background-color: #e6e4ff;
+  border: 2px solid #e6e4ff;
+  border-radius: 5px;
+}
+
+.check {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.forms span {
+  padding-left: 10px;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.button {
+  width: 100%;
+  padding: 20px;
+  background-color: slateblue;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #222;
+  transition: 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 798px) {
+  .main {
+    margin-top: 5px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .form input {
+    margin-top: 10px;
+  }
+
+  .right {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    width: 40%;
+  }
+
+  .check {
+    margin-bottom: 20px 0;
+  }
+}
